@@ -1,0 +1,53 @@
+.project {
+    background: url(../img/bg2.png) no-repeat center/cover;
+    height: 404px;
+}
+
+.project__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.project__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.project__title {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 67px;
+    color: white;
+    margin-bottom: 22px;
+}
+
+.project__btn {
+    font-family: 'PlayfairDisplay-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    /* padding: 24px 42px; */
+    border: none;
+    outline: none;
+    width: 190px;
+    height: 53px;
+    cursor: pointer;
+    background: white;
+    transition: 0.3s;
+}
+
+.project__btn:hover {
+    background: #41a28e;
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .project__title {
+    font-size: 40px;
+  }
+}
